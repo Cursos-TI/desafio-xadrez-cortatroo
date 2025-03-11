@@ -41,7 +41,8 @@ int main() {
     printf("\n");
     printf("Mover a Rainha 8 casas para a esquerda.\n");
     
-    int numero, i = 0;
+    int numero;
+    int i = 0;
     char direcao;
 	
     printf("Quantas casas deseja mover?\n");
@@ -49,11 +50,13 @@ int main() {
     printf("Para qual direção?\n");
     scanf("%s", &direcao);
 
-    do
+    printf("Número é igual: %d", numero);
+
+   /* do
     {
         printf("Esquerda\n");
         i++;
-    } while (i<8);
+    } while (i < numero); */
     
     
     
