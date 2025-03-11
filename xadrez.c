@@ -44,13 +44,13 @@ int main() {
     printf("Mover a Rainha 8 casas para a esquerda.\n");
     
     int numero; //Variavel que irá receber o número de casas a andar, no exemplo 8.
-    int controle; //Será a variavel de controle.
+    int controle = 0; //Será a variavel de controle.
     char direcao[10]; //Variavel que irá receber a direção que Rainha irá mover.
-	
+
     printf("Quantas casas deseja mover?\n"); //Entrada do usuário.
     scanf("%d", &numero);                   //Guardar valor na variavel numero.
     printf("Para qual direção?\n"); //Entrada do usuário.
-    scanf("%s", &direcao);          //Guardar valor na variavel direcao.
+    scanf("%s", direcao);          //Guardar valor na variavel direcao.
 
     printf("\n");
 
