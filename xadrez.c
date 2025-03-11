@@ -9,7 +9,7 @@ int main() {
     // Implementação de Movimentação da Torre
     // Mover a Torre 5 casas para a direita.
 
-    /*printf("****Implementação de Movimentação da Torre****\n");
+    printf("****Implementação de Movimentação da Torre****\n");
     printf("\n");
     printf("Mover a Torre 5 casas para a direita\n");
 
@@ -17,7 +17,7 @@ int main() {
     {
         printf("Direita\n"); //Imprime a direção do movimento.
     }
-    
+    printf("\n");
 
     // Implementação de Movimentação do Bispo
     // Mover o Bispo 5 casas para na diagonal (para cima a direita)
@@ -32,8 +32,10 @@ int main() {
     {
         printf("Para cima a direita\n");
         i++;
-    }*/
+    }
     
+    printf("\n");
+
     // Implementação de Movimentação da Rainha
     // Mover a Rainha 8 casas para a esquerda.
 
@@ -41,32 +43,27 @@ int main() {
     printf("\n");
     printf("Mover a Rainha 8 casas para a esquerda.\n");
     
-    int numero;
-    int i = 0;
-    char direcao;
+    int numero; //Variavel que irá receber o número de casas a andar, no exemplo 8.
+    int i = 0; //Será a variavel de controle.
+    char direcao[10]; //Variavel que irá receber a direção que Rainha irá mover.
 	
-    printf("Quantas casas deseja mover?\n");
-    scanf("%d", &numero);
-    printf("Para qual direção?\n");
-    scanf("%s", &direcao);
+    printf("Quantas casas deseja mover?\n"); //Entrada do usuário.
+    scanf("%d", &numero);                   //Guardar valor na variavel numero.
+    printf("Para qual direção?\n"); //Entrada do usuário.
+    scanf("%s", &direcao);          //Guardar valor na variavel direcao.
 
-    printf("Número é igual: %d", numero);
+    printf("\n");
 
-   /* do
-    {
-        printf("Esquerda\n");
+   do
+    {                                  
+        printf("%s\n", direcao);
         i++;
-    } while (i < numero); */
+    } while (i < numero);
     
-    
-    
-    
-    
-    
+    return 0;
+}
 
-    // Implementação de Movimentação da Rainha
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
-
+    //##################################################################################
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
@@ -78,5 +75,4 @@ int main() {
     // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
     // Inclua o uso de continue e break dentro dos loops.
 
-    return 0;
-}
+
