@@ -6,13 +6,60 @@
 
 int main() {
     // Nível Novato - Movimentação das Peças
-    // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
+    // Implementação de Movimentação da Torre
+    // Mover a Torre 5 casas para a direita.
+
+    /*printf("****Implementação de Movimentação da Torre****\n");
+    printf("\n");
+    printf("Mover a Torre 5 casas para a direita\n");
+
+    for (int i = 0; i < 5; i++) //estrutura de repetição.
+    {
+        printf("Direita\n"); //Imprime a direção do movimento.
+    }
+    
 
     // Implementação de Movimentação do Bispo
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
+    // Mover o Bispo 5 casas para na diagonal (para cima a direita)
+    
+    printf("****Implementação de Movimentação do Bispo****\n");
+    printf("\n");
+    printf("Mover o Bispo 5 casas na diagonal (para cima a direita)\n");
 
-    // Implementação de Movimentação da Torre
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
+    int i = 0; //Declarando a variavel i
+    
+    while (i < 5)
+    {
+        printf("Para cima a direita\n");
+        i++;
+    }*/
+    
+    // Implementação de Movimentação da Rainha
+    // Mover a Rainha 8 casas para a esquerda.
+
+    printf("****Implementação de Movimentação da Rainha****\n");
+    printf("\n");
+    printf("Mover a Rainha 8 casas para a esquerda.\n");
+    
+    int numero, i = 0;
+    char direcao;
+	
+    printf("Quantas casas deseja mover?\n");
+    scanf("%d", &numero);
+    printf("Para qual direção?\n");
+    scanf("%s", &direcao);
+
+    do
+    {
+        printf("Esquerda\n");
+        i++;
+    } while (i<8);
+    
+    
+    
+    
+    
+    
 
     // Implementação de Movimentação da Rainha
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
