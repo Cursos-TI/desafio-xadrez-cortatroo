@@ -47,9 +47,9 @@ int main() {
     int controle = 0; //Será a variavel de controle.
     char direcao[10]; //Variavel que irá receber a direção que Rainha irá mover.
 
-    printf("Quantas casas deseja mover?\n"); //Entrada do usuário.
+    printf("Quantas casas deseja mover?\n"); //Entrada do usuário (8)
     scanf("%d", &numero);                   //Guardar valor na variavel numero.
-    printf("Para qual direção?\n"); //Entrada do usuário.
+    printf("Para qual direção?\n"); //Entrada do usuário (ESQUERDA).
     scanf("%s", direcao);          //Guardar valor na variavel direcao.
 
     printf("\n");
@@ -59,6 +59,26 @@ int main() {
         printf("%s\n", direcao);
         controle++;
     } while (controle < numero);
+    
+    printf("\n");
+    // Implementação de Movimentação do Cavalo
+    // Mover o Cavalo duas casas para cima e uma casa para direita.
+
+    printf("****Implementação de Movimentação do Cavalo****\n");
+    printf("\n");
+    printf("Mover o Cavalo 2 casas para cima e 1 casa para a direita.\n");
+
+    int movimento = 1;   //Variavel que será utilizada como controle no loop interno
+
+    for (int cavalo = 1; cavalo < 2; cavalo++)  //Iniciando o loop for, declarando a variavel, a condição e o controle.
+    {
+        while (movimento < 3)                   //Iniciando o loop while (interno)
+        {
+            printf("Cima\n");
+            movimento++;
+        }
+        printf("Direita\n");
+    }
     
     return 0;
 }
